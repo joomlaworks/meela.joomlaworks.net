@@ -7,6 +7,7 @@
 - Joomla update server: https://joomlaworks.github.io/meela/update.xml
 - Requirements: Joomla 3.9 to 3.18 (Joomla 3.x UTD recommended); PHP 7.1 or newer (7.4+ recommended, tested up to 8.5); MySQL 5.5.3+ / MariaDB, PostgreSQL 9.5+ or SQLite 3.37+
 - Licence: GNU General Public License, version 3 or later
+- In use: the JoomlaWorks Community Forum, https://www.joomlaworks.net/forum (about 38,700 topics, 149,000 posts and 100,000 members), upgraded in place from Kunena 5.2
 
 ## Docs
 

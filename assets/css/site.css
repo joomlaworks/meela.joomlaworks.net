@@ -167,6 +167,10 @@ h2{font-size:clamp(2rem,3.7vw,3rem);font-weight:800;letter-spacing:-.03em}
 @media(prefers-reduced-motion:reduce){.car-track{transition:none}}
 
 /* phones */
+.figures{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.figures li{flex:1 1 90px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:12px 14px;color:var(--dim);font-size:14.5px}
+.figures b{display:block;font-size:1.6rem;letter-spacing:-.02em;color:var(--ink)}
+@media(max-width:520px){.figures b{font-size:1.3rem}}
 .phones{display:flex;gap:22px;justify-content:center;margin-top:26px;flex-wrap:wrap}
 .phone{width:min(240px,44vw);border-radius:30px;padding:9px;background:var(--ink);box-shadow:var(--shadow)}
 .phone a{display:block;cursor:zoom-in}
