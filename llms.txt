@@ -1,0 +1,22 @@
+# Meela
+
+> Meela is a forum component for Joomla 3.x and Joomla 3.x UTD by JoomlaWorks, the continuation of Kunena 5.2 (the last Kunena for Joomla 3), called "Kunena Fork" up to version 5.4. It adds the Blackadder template, the Baldrick AI first responder, PostgreSQL and SQLite support next to MySQL/MariaDB, PHP 7.1 to 8.5 support, about 90 security fixes, structured data and XML sitemaps. It upgrades Kunena 5.2 sites in place and keeps Kunena's technical names (com_kunena, the database tables, the kunena:* commands).
+
+- Source code and issues: https://github.com/joomlaworks/meela
+- Latest release package (install as-is in Extensions > Install): https://github.com/joomlaworks/meela/archive/refs/tags/v5.5.0.zip
+- Joomla update server: https://joomlaworks.github.io/meela/update.xml
+- Requirements: Joomla 3.9 to 3.18 (Joomla 3.x UTD recommended); PHP 7.1 or newer (7.4+ recommended, tested up to 8.5); MySQL 5.5.3+ / MariaDB, PostgreSQL 9.5+ or SQLite 3.37+
+- Licence: GNU General Public License, version 3 or later
+
+## Docs
+
+- [README](https://raw.githubusercontent.com/joomlaworks/meela/main/README.md): what Meela is, a summary of each release, installing and upgrading, CAPTCHA, Baldrick AI, usernames and names, search engines
+- [Changelog](https://raw.githubusercontent.com/joomlaworks/meela/main/CHANGELOG.md): every change of every release in detail, including the security fixes
+- [Command line guide](https://raw.githubusercontent.com/joomlaworks/meela/main/CLI-GUIDE.md): the kunena:* commands of Joomla 3.x UTD's command line (sitemaps, trash, sample data, Baldrick AI, maintenance)
+- [Developer guide](https://raw.githubusercontent.com/joomlaworks/meela/main/AGENTS.md): repository layout, coding rules, how the installer works and how to test
+
+## Optional
+
+- [Website](https://meela.joomlaworks.net/): features, screenshots, the comparison with Kunena 5.2 and Kunena 6/7, releases and roadmap
+- [Releases](https://github.com/joomlaworks/meela/releases): each version's notes and package
+- [Joomla 3.x UTD](https://j3xutd.joomlaworks.net/): the maintained Joomla 3.x distribution Meela is made for
