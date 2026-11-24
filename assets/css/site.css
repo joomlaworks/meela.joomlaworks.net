@@ -150,7 +150,7 @@ h2{font-size:clamp(2rem,3.7vw,3rem);font-weight:800;letter-spacing:-.03em}
 /* carousels (from the Joomla 3.x UTD site) */
 .carousel{position:relative;min-width:0}
 .car-viewport{overflow:hidden;border-radius:var(--r);box-shadow:var(--shadow);background:var(--panel);border:1px solid var(--line)}
-.car-track{display:flex;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.car-track{display:flex;touch-action:pan-y;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
 .car-track.is-dragging{transition:none}
 .car-slide{flex:0 0 100%;min-width:0}
 .car-slide a{display:block;cursor:zoom-in}
